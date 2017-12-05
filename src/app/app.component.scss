@@ -1,0 +1,57 @@
+.todoapp {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  width: 400px;
+  height: auto;
+  margin: 0 auto;
+  background-color: #e4e0e3;
+  text-align: center;
+
+  .access {
+    margin-top: 5px;
+  }
+
+  input.new-todo {
+    margin-bottom: 15px;
+  }
+  .main ul.todo-list {
+    list-style-type: none;
+    padding-left: 0;
+
+    li {
+      background-color: #afb4bd;
+      margin: 10px;
+      text-align: left;
+
+      button.destroy {
+        float: right;
+        border: none;
+        height: 20px;
+        background-color: #e88989;
+      }
+    }
+    li:first-child {
+      margin-top: 0;
+    }
+  }
+  .footer {
+    button.removeAll {
+      float: right;
+      margin: 0 10px 10px 10px;
+    }
+
+    button.removeSelected {
+      float: right;
+      margin: 0 0 10px 10px;
+    }
+  }
+}
+
+
+
